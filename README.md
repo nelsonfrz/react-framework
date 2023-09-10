@@ -6,6 +6,11 @@ To install dependencies:
 bun install
 ```
 
+To compile TailwindCSS:
+```bash
+bunx tailwindcss -i ./src/app/globals.css -o ./build/output.css
+```
+
 To run:
 
 ```bash
