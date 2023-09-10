@@ -6,8 +6,8 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import HomePage from "./pages";
-import AboutPage from "./pages";
+import HomePage from "./pages/index";
+import AboutPage from "./pages/about";
 
 // @ts-ignore
 const serverSideProps = window.__ssr_props;
